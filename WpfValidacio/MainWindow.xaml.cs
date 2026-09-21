@@ -25,7 +25,7 @@ namespace WpfValidacio
         {
             try
             {
-                int age = Convert.
+                int age = Convert.ToInt32(txtAge.Text);
             }
             catch (FormatException)
             {
